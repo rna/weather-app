@@ -1,2 +1,6 @@
 import '../assets/css/main.scss';
-alert("SUCCESS")
+
+
+document.getElementById('searchButton').addEventListener('click',()=>{
+  console.log(document.getElementById('search').value);
+})
