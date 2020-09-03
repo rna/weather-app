@@ -1,7 +1,7 @@
 body {
   width: 100%;
   margin: 0;
-  background:url(https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif) no-repeat center center fixed;
+  background: url(https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -16,6 +16,15 @@ main {
   width: 30%;
   margin: 0 auto;
   text-align: center;
+
+  a {
+    text-decoration: underline;
+    color: palevioletred;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 
   h1 {
     color: palevioletred;

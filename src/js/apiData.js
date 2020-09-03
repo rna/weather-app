@@ -9,7 +9,7 @@ const addApiData = (data) => {
   document.body.style.backgroundSize = 'cover';
   cityName.innerHTML = data.name;
   weather.innerHTML = data.weather[0].main;
-  temp.innerHTML = data.main.temp;
+  temp.innerHTML = Math.round(data.main.temp);
 };
 
 export default addApiData;
