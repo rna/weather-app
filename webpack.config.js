@@ -5,16 +5,16 @@ const Dotenv = require('dotenv-webpack');
 module.exports = {
   entry: './src/js/index.js',
   output: {
-    path: path.resolve(__dirname,'dist'),
-    filename: 'main.js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'main.js',
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9000
+    port: 9000,
   },
-  module:{
-    rules:[
+  module: {
+    rules: [
       {
         test: /\.s[ac]ss$/i,
         use: [
@@ -25,15 +25,15 @@ module.exports = {
           // Compiles Sass to CSS
           'sass-loader',
         ],
-      }
-    ]
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Custom template',
       // Load a custom template (lodash by default)
-      template: './src/index.html'
+      template: './src/index.html',
     }),
-    new Dotenv()
-  ]
+    new Dotenv(),
+  ],
 };
