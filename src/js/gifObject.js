@@ -18,3 +18,5 @@ const gifObject = {
   '13n': 'https://media.giphy.com/media/xUOxf8xUMPuM5mvtMA/giphy.gif',
   '50n': 'https://media.giphy.com/media/3ohhwg3O1TGRXHQYh2/giphy.gif',
 };
+
+export default gifObject;
