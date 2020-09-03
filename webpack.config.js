@@ -34,6 +34,8 @@ module.exports = {
       // Load a custom template (lodash by default)
       template: './src/index.html',
     }),
-    new Dotenv(),
+    new Dotenv({
+      systemvars: true,
+    }),
   ],
 };
