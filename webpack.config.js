@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/js/index.js',
@@ -32,6 +33,7 @@ module.exports = {
       title: 'Custom template',
       // Load a custom template (lodash by default)
       template: './src/index.html'
-    })
-  ]  
+    }),
+    new Dotenv()
+  ]
 };

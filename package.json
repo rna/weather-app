@@ -21,6 +21,7 @@
   "homepage": "https://github.com/rna/weather-app#readme",
   "devDependencies": {
     "css-loader": "^4.2.2",
+    "dotenv-webpack": "^2.0.0",
     "html-webpack-plugin": "^4.4.1",
     "sass": "^1.26.10",
     "sass-loader": "^10.0.1",
@@ -28,5 +29,6 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "dependencies": {}
 }
