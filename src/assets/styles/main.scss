@@ -1,4 +1,33 @@
+body {
+  width: 100%;
+  margin: 0;
+}
 
-h1 {
-  color: red;
+.main {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    color: palevioletred;
+  }
+
+  #searchBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #weatherDisplay {
+    margin-top: 40%;
+    font-size: 2em;
+  }
+
+  input {
+    margin: 5px;
+  }
+}
+
+input[type="search"] {
+  width: 15em;
 }
