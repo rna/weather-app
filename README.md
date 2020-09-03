@@ -16,9 +16,10 @@
 
 ## Features
 
-- Allows users to search weather for a specific location.
+- Allows users to search for the weather of a specific location.
+- Users can toggle between the Celcius and Fahrenheit degrees.
+- User can view the images depending on the weather conditions.
 
-- Users can toggle between the Celcius and Farneheit degrees.
 
 ## Built With
 
@@ -34,7 +35,7 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple example steps.
 
 <!-- ### Prerequisites -->
 
