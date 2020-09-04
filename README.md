@@ -20,7 +20,6 @@
 - Users can toggle between the Celcius and Fahrenheit degrees.
 - User can view the images depending on the weather conditions.
 
-
 ## Built With
 
 - HTML

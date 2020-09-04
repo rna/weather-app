@@ -17,16 +17,8 @@ main {
   margin: 0 auto;
   text-align: center;
 
+  h1,
   a {
-    text-decoration: underline;
-    color: palevioletred;
-
-    &:hover {
-      cursor: pointer;
-    }
-  }
-
-  h1 {
     color: palevioletred;
   }
 
@@ -54,4 +46,15 @@ input[type="search"] {
   display: flex;
   justify-content: center;
   line-height: 0%;
+
+  p {
+    margin-right: 10px;
+    line-height: normal;
+  }
+}
+
+span {
+  font-size: 20px;
+  width: 2em;
+  height: 15px;
 }
