@@ -30,7 +30,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://loving-jennings-1a1bce.netlify.app/)
+[Live Demo Link](https://rna-weather-app.netlify.app/)
 
 ## Getting Started
 
