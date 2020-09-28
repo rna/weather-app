@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/css-toggle-switch/latest/toggle-switch.css" />
+  </head>
+  <body>
+    <main>
+      <div class="mainDiv">
+        <h1>Weather App</h1>
+        <div id="searchBar">
+          <input type="search" name="search" id="search" />
+          <input type="button" value="Search" id="searchButton" />
+        </div>
+        <div id="weatherDisplay">
+          <p id="city">London</p>
+          <p id="weather">Rain</p>
+          <div id="cToF">
+            <p id="temp">20</p>
+            <p> &deg;<a id="toF">C</a></p>
+            <p>
+              <label class="switch-light switch-candy" onclick="">
+                <input type="checkbox">
+                <span>
+                  <span>C</span>
+                  <span>F</span>
+                  <a></a>
+                </span>
+              </label>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
